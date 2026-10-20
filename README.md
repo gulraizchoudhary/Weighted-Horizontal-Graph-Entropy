@@ -118,6 +118,6 @@ details become available. No DOI or publication URL is invented here.
 
 ## License
 
-**No open-source license has yet been selected by the authors.** Permission to copy,
-modify, or redistribute is not granted by default. Confirm intellectual-property
-ownership and add an approved license before presenting this as open-source software.
+This work is licensed under a **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
+
+You are free to share, copy, modify, and redistribute this material in any medium or format, provided appropriate credit is given to the original authors.
