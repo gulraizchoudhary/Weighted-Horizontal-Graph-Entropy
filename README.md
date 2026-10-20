@@ -72,28 +72,6 @@ The authors should review these files against the final manuscript before public
 Some exploratory/alternative analyses and their statistical tests may use different
 estimands or comparisons than the final tables.
 
-## Reproducibility scope and provenance
-
-- Core: newly organized implementation checked against manuscript equations and
-  the supplied original HVG/weight definitions.
-- Earlier supplied scripts: `weight_hvg_entropy.py`, `weight_hvg_main.py`,
-  `weight_hvg_noise_entropy.py`, `Grouped_hvg_entropy.py`, plotting scripts.
-  These were **reviewed**, not copied into the public distribution.
-- The early clinical driver used *mean edge weight, SEM and edge count* (a different
-  descriptor pathway); another helper used **natural VG** for a total-weight routine.
-  These are **not equivalent** to the manuscript's final **HVG TotalWeight** definition.
-- Actual nested-CV training scripts and full signal-level processing scripts from later
-  work are not present in this minimal release. Model summary CSVs do not replace them.
-- In particular, age-related Fig. 3C revisions in mentor messages are **not** encoded as
-  a fixed paper result here. That panel can change without changing the core method.
-- No original signal recordings, subject-level features, subject mapping, or clinical
-  identifiers are distributed in this package.
-
-The final manuscript promises analysis scripts and processed result tables. **This minimal
-repository alone does not fulfill an assertion of complete manuscript reproduction.**
-Before public release, the authors should either add verified research analysis scripts
-and appropriate processed results or revise the manuscript availability statement to
-accurately reflect the deposited materials.
 
 ## Testing
 
